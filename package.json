@@ -1,6 +1,6 @@
 {
   "name": "react-native-audio-toolkit",
-  "version": "1.0.6-post3",
+  "version": "1.0.6-post4",
   "description": "Cross-platform audio library for React Native",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "rnpm": {
     "android": {
-      "sourceDir": "lib"
+      "sourceDir": "./android/lib"
     }
-  }  
+  }
 }
