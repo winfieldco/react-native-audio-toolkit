@@ -161,7 +161,7 @@ class Player extends EventEmitter {
 
   pause(callback = _.noop) {
     RCTAudioPlayer.pause(this._playerId, (err, results) => {
-      //this._updateState(err, MediaStates.PAUSED, [results]); // We are sending a pause event on the native side
+      this._updateState(err, MediaStates.PAUSED, [results]); // We are sending a pause event on the native side
       callback(err);
     });
 
