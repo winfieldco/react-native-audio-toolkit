@@ -239,14 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../node_modules/react-native/React/**",
-					"$(SRCROOT)/../../ExampleApp/node_modules/react-native/React/**",
-					"$(SRCROOT)/../../../../node_modules/react-native/React/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -257,14 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../node_modules/react-native/React/**",
-					"$(SRCROOT)/../../ExampleApp/node_modules/react-native/React/**",
-					"$(SRCROOT)/../../../../node_modules/react-native/React/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
